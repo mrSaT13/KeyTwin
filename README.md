@@ -62,9 +62,9 @@ python copy_token_gui.py
 
 ## 🖼 Скриншоты
 
-| Окно | Трей |
-|---|---|
-| `docs/screenshot-main.png` | `docs/screenshot-tray.png` |
+| Окно | Трей | О программе |
+|---|---|---|
+| ![окно](docs/screenshot-main.png) | ![трей](docs/screenshot-tray.png) | ![о программе](docs/screenshot-about.png) |
 
 ## ❓ Не работает?
 
