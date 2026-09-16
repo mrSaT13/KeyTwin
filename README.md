@@ -34,10 +34,17 @@ KeyTwin копирует контейнер закрытого ключа с USB
 
 ## 🚀 Быстрый старт
 
-1. Скачай [**KeyTwin.exe**](https://github.com/mrSaT13/KeyTwin/releases) и запусти
+1. Скачай [**KeyTwin.exe**](https://github.com/mrSaT13/KeyTwin/releases/latest) и запусти
 2. Вставь токен → **Обновить список** → выбери контейнер
 3. Имя копии (напр. `ivanov-copy`) → PIN токена → пароль копии → **Скопировать**
 4. Дождись `0x00000000` → проверь копию в КриптоПро → Сервис → Сертификаты
+
+Проверка официального файла (v1.2.0):
+
+```bat
+certutil -hashfile KeyTwin.exe SHA256
+REM должно быть: 348D20E2349C4F65EC9381E56A15D7BD7C8E701F0CED662A89783BDC7D1CCE9F
+```
 
 <details>
 <summary>Запуск из исходников</summary>
